@@ -7,4 +7,7 @@ describe('test {reverseString}', () => {
     it(`test empty string`, () => {
         expect(reverseString('')).toBe('');
     })
+    it('test string with one symbol', () => {
+        expect(reverseString('a')).toBe('a');
+    })
 })
