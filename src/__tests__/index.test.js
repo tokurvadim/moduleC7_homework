@@ -5,6 +5,6 @@ describe('test {reverseString}', () => {
         expect(reverseString('reverse')).toBe('esrever');
     })
     it(`test empty string`, () => {
-        expect(reverseString('')).toBe('error');
+        expect(reverseString('')).toBe('');
     })
 })
