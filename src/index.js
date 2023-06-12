@@ -6,5 +6,5 @@ export function reverseString(startString) {
             resultString += startString[startString.length - i - 1];
         }
         return resultString;
-    } else return 'error';
+    } else return '';
 }
